@@ -1,1 +1,3 @@
-﻿
+﻿function showAlert() {
+    alert("Hi!!");
+}
