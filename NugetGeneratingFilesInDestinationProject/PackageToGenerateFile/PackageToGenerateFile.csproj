@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup Label="Packaging">
+    <Content Include="build\PackageToGenerateFile.targets" PackagePath="build\PackageToGenerateFile.targets" />
+
+    <Content Include="scriptsToGenerate/*.js">
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>
+  
+</Project>
